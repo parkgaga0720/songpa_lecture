@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="selector2.css" />
+  </head>
+
+  <body>
+    <h2>기본속성 선택자</h2>
+    <p>
+      기본 선택자 뒤에 []를 사용하여 속성과 속성값을 사용한다 주로 id
+      class속성이 아닌것들에 적용.
+    </p>
+    <div name="name1 name5 name 6" class="div-class">div 1</div>
+    <div name="name2" class="div-class">div 2</div>
+    <div name="name3" class="div-class">div 3</div>
+    <div name="name4" class="class-div">div 4</div>
+    <hr />
+    <h2>후손 선택자와 자손 선택자</h2>
+    <p>자손 선택자 : 바로 아래의 요소 / 후손 선택자 : 하위 요소 전부</p>
+    <div id="test1">
+      <h4>자손입니다</h4>
+      <h4>나도 자손입니다</h4>
+      <div>
+        <ul id="testul">
+          <li>나는 ul의 자손 div후손입니다</li>
+          <li>나도 ul의 자손 div후손입니다</li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <h2>동위 선택자</h2>
+    <p>동위 관계(형제 관계)에서 뒤에 위치한 태그를 선택할때 사용한다</p>
+    <div id="div-test1">div test1</div>
+    <div id="div-test2">div test2</div>
+    <div id="div-test3">div test3</div>
+    <div id="div-test4">div test4</div>
+    <div id="div-test5">div test5</div>
+    <hr />
+    <h2>반응 선택자</h2>
+    <p>사용자의 움직임에 따라 달라지는 선택자</p>
+    <div id="active-test">active 테스트</div>
+    <div id="hover-test">hover 테스트</div>
+    <hr />
+    <h2>상태선택자</h2>
+    <p>입력양식의 상태에 따라 선택되는 선택자</p>
+    <input type="checkbox" name="fruites" value="사과" id="apple" /><label
+      for="apple"
+      >사과</label
+    >
+    <input type="checkbox" name="fruites" value="바나나" id="apple" /><label
+      for="banana"
+      >바나나</label
+    >
+    <input type="checkbox" name="banana" value="복숭아" id="peach" /><label
+      for="peach"
+      >복숭아</label
+    >
+    <hr />
+    <p>초점이 맞춰진 input 태그 선택</p>
+    <label for="userId">아이디 : </label>
+    <input type="text" id="userId" placeholder="아이디를 입력하세요" /> <br />
+    <label for="userPwd">패스워드 : </label>
+    <input type="password" id="userPwd" placeholder="비밀번호를 입력하세요" />
+    <br />
+    <p>사용가능한 input 태그 선택</p>
+    <select>
+      <option value="10" disabled>10대</option>
+      <option value="20">20대</option>
+      <option value="30">30대</option>
+      <option value="40">40대</option>
+      <option value="50">50대</option>
+      <option value="60" disabled>60대</option>
+    </select>
+    <input type="text" disabled />
+    <button disabled>버튼</button>
+  </body>
+</html>
