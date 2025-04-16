@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>연습문제 1</h3>
+    <form action="#">
+      <fieldset>
+        <legend>납품자 정보</legend>
+        <ol>
+          <li>납품자명 :</li>
+          <input type="text" />
+          <li>email :</li>
+          <input type="email" name="email" placeholder="answer@naver.com" />
+          <li>홈페이지 :</li>
+          <input type="url" name="homepage" value="https://" />
+          <li>지역 :</li>
+          <select name="nation">
+            <option value="s">서울</option>
+            <option value="b" selected>부산</option>
+            <option value="c">충청</option>
+            <option value="k">광주</option>
+            <option value="j">제주</option>
+          </select>
+        </ol>
+      </fieldset>
+
+      <fieldset>
+        <legend>납품 정보</legend>
+        <ul>
+          <li>상품명 :</li>
+          <input type="text" /><br />
+          <li>납품수량 :</li>
+          <input type="text" placeholder="최소 100" /><br />
+          <li>납품등급 :</li>
+          <input
+            type="range"
+            name="point"
+            min="0"
+            max="100"
+            value="50"
+            step="10"
+          />
+          <li>기타사항 :</li>
+          <textarea
+            name="contents"
+            cols="30"
+            rows="10"
+            style="resize: none"
+          ></textarea>
+        </ul>
+      </fieldset>
+      <br />
+      <input type="submit" value="send message" />
+    </form>
+    <br />
+    <br />
+    <hr />
+    <br />
+    <h3>연습문제 2</h3>
+    <form action="#">
+      <label>고객명 : </label>
+      <input type="text" name="name" />
+      <br /><br />
+      <label>전화번호 : </label>
+      <input type="tel" name="phone" />
+      <br /><br />
+      <label>E-mail : </label>
+      <input type="email" name="email" />
+      <br /><br />
+      <label>피자 선택 : </label>
+      <select name="pizza">
+        <option value="cp">치즈 피자</option>
+        <option value="pp">포테이토 피자</option>
+        <option value="sp">고구마 피자</option>
+      </select>
+      <fieldset>
+        <legend>피자 사이즈</legend>
+        <input id="Small" type="radio" name="size" value="S" checked />
+        <label for="Small">Small</label> <br />
+        <input id="Medium" type="radio" name="size" value="M" />
+        <label for="Medium">Medium</label> <br />
+        <input id="Large" type="radio" name="size" value="L" />
+        <label for="Large">Large</label>
+      </fieldset>
+      <fieldset>
+        <legend>토핑 선택</legend>
+        <input id="bacon" type="checkbox" name="topping" value="베이컨" />
+        <label for="bacon">베이컨</label> <br />
+        <input id="cheese" type="checkbox" name="topping" value="치즈" />
+        <label for="cheese">치즈</label> <br />
+        <input id="onion" type="checkbox" name="topping" value="양파" />
+        <label for="onion">양파</label> <br />
+        <input id="mushroom" type="checkbox" name="topping" value="버섯" />
+        <label for="mushroom">버섯</label>
+      </fieldset>
+      <br />
+      <label>희망 배송 시간 : </label>
+      <input type="time" name="time" /><br />
+      <br />
+      <label>배송시 요청사항 : </label>
+      <textarea
+        name="contents"
+        cols="20"
+        rows="2"
+        style="resize: none"
+      ></textarea>
+      <br /><br />
+      <input type="submit" value="주문하기" />
+    </form>
+    <br /><br />
+    <hr />
+    <br />
+    <h3>연습문제 3</h3>
+    <br />
+    <form action="#">
+      <fieldset>
+        <h2>회원가입</h2>
+        <label>아이디 </label>
+        <input type="text" placeholder="아이디 10글자 이내" />
+        <button>중복 확인</button>
+        <br />
+        <label>비밀번호 </label>
+        <input
+          type="password"
+          placeholder="영문, 숫자, 특수문자 포함 8자 이상"
+        />
+        <br />
+        <label>비밀번호 확인 </label>
+        <input type="password" />
+        <br />
+        <label>E-mail </label>
+        <input type="email" />
+        <select name="emeil">
+          <option value="user" selected>직접 입력</option>
+          <option value="naver">@naver.com</option>
+          <option value="google">@gmail.com</option>
+        </select>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>추가 정보</legend>
+        <label>프로필 사진 </label>
+        <input type="file" name="uploadfile" /> <br /><br />
+        <label>성별 : </label>
+        <input id="male" type="radio" name="gender" value="M" checked />
+        <label for="male">남자</label>
+        <input id="female" type="radio" name="gender" value="F" />
+        <label for="female">여자</label>
+        <br /><br />
+        <label>생년월일 : </label><input type="date" name="date" /> <br />
+        <br />
+
+        <label>취미</label><br />
+        <input id="baseball" type="checkbox" name="hobby" value="야구" />
+        <label for="baseball">야구</label>
+        <input id="basketball" type="checkbox" name="hobby" value="농구" />
+        <label for="basketball">농구</label>
+        <input id="football" type="checkbox" name="hobby" value="축구" />
+        <label for="football">축구</label>
+        <br />
+        <input id="study" type="checkbox" name="hobby" value="공부" checked />
+        <label for="study">공부</label>
+        <input id="music" type="checkbox" name="hobby" value="음악감상" />
+        <label for="music">음악감상</label>
+        <br />
+        <input id="etc" type="checkbox" name="hobby" value="기타" />
+        <label for="etc">기타 </label><input type="text" /> <br /><br />
+        <label>자기소개</label>
+        <br />
+        <textarea
+          name="contents"
+          cols="30"
+          rows="10"
+          style="resize: none"
+        ></textarea>
+      </fieldset>
+      <br />
+      <input type="submit" value="회원가입" />
+      <input type="reset" value="다시입력" />
+      <input type="button" value="이전으로" />
+    </form>
+  </body>
+</html>
