@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #container {
+        position: relative;
+        width: 160px;
+        height: 240px;
+        margin-top: 16px;
+        margin-left: 16px;
+        border-radius: 4px;
+      }
+
+      #img {
+        width: 160px;
+        height: 240px;
+        border-radius: 4px;
+        display: block;
+      }
+
+      #div {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        background: #ca785c;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+      }
+      .label {
+        color: #ffffff;
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 16px;
+        display: block;
+      }
+      #div2 {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <img
+        id="img"
+        src="https://s3-alpha-sig.figma.com/img/a16f/abed/86eeb187c1e5f8823914fafb06da4634?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=lzThsIAzYFuHg18FOCVh9oAQ2WwVUeLIi~tvZnIy-~lQxFZNr62rLsir4yv~myHMsn-hCMifRJZMBlZ9pwLtaq43dok93mDv3Y7DLxd2cruSW3cYBW1TmxMvZCA4c2TTsQgJbBDj9Dp8PTQ2byOC4ptd8hDVZ-Lob~3~hoVnyEa66G~z0uVjx32MhFspc9U1Nrk8hgaSo9vFH6oOLOMYh9kOU3bEXGIiHtsM6bGRwrwLAMVHJXY2CsIeBinNsrTb7Z~3k8jr3yT~J0dk13VQCECAuGclTAm1YBnMnQBsDgtjaUpYV0Lf22m6eFfIprhRDXmVly4MBExsdxkQI8HlsQ__"
+      />
+      <div id="div">
+        <label class="label">인테리어란?</label>
+        <div id="div2">
+          <label class="label" id="label1">김작가</label
+          ><label class="label" id="label2">2024.01.01</label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
