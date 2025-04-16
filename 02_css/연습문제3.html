@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-weight: 800;
+        height: 100%;
+        text-align: center;
+      }
+      #header {
+        background: blue;
+        height: 20%;
+      }
+      #nav {
+        display: block;
+        background: red;
+        width: 300px;
+        margin: auto;
+      }
+      #section {
+        background: green;
+        width: 75%;
+      }
+      .article {
+        height: 150px;
+      }
+      #article1 {
+        background-color: lightgreen;
+      }
+      #article2 {
+        background-color: pink;
+      }
+      #article3 {
+        background-color: aquamarine;
+      }
+      #aside {
+        background: wheat;
+        width: 25%;
+        margin-left: -6px;
+      }
+      #footer {
+        background: purple;
+        height: 10%;
+      }
+      .block {
+        display: inline-block;
+        height: 500px;
+        vertical-align: top;
+      }
+      .b1 {
+        margin: 0px 30px;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      header
+      <nav class="block" id="nav">nav</nav>
+    </header>
+    <section class="block" id="section">
+      section
+      <article class="b1 article" id="article1">article</article>
+      <article class="b1 article" id="article2">article</article>
+      <article class="b1 article" id="article3">article</article>
+    </section>
+    <aside class="block" id="aside">aside</aside>
+    <footer id="footer">footer</footer>
+  </body>
+</html>
