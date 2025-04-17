@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #container {
+        position: relative;
+        width: 300px;
+        height: 250px;
+        border-radius: 8px;
+        margin-top: 16px;
+        margin-left: 16px;
+      }
+
+      #img {
+        width: 300px;
+        height: 250px;
+        border-radius: 8px;
+        object-fit: cover;
+      }
+
+      #div {
+        position: absolute;
+        bottom: 0;
+        width: 300px;
+        height: 56px;
+        top: 194px;
+
+        background: #00000099;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+      }
+      .label {
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 12px;
+        display: block;
+      }
+      #label1 {
+        color: #ffffff;
+        padding-top: 8px;
+        padding-left: 8px;
+      }
+      #label2 {
+        color: #d1d1d1;
+        padding-top: 8px;
+        padding-left: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <img
+        id="img"
+        src="https://s3-alpha-sig.figma.com/img/80f9/6fff/3c156d5cd401a6ab29061ecd75c5c704?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=rI-NuKgxOGkc8fNlI1Lr4Ow9EDBQGcr3KYK9ea8Wx~~PMYDeULSDKsutphaU~XswAjhuae0phrlTGogarN0FYvoNngq6si0j9mkh7Imm630bVTLXffjIrarOhUwJe7kusBzI5tWtYnygUPKbdC9AtQpDr5~M4Bv0imqjSsOw3xP~w6w8yz8YUXkaVTUCjK0bgp25tq5W7RKVpmRLDIYAVe7Y8nEf3nbFi-eO9AFtJNbG--qbw7bKbH08vHn9QSYeuutAQBlWwjY03zBoOkLpd7dmbdu5GsED0Xow~7k4sRUNYhGRKGOTEmRcK7KXvIA4QiLOoCXgF0DjgmwoOiePtg__"
+      />
+      <div id="div">
+        <label class="label" id="label1">새로운 시작!</label>
+        <label class="label" id="label2">김작가</label>
+      </div>
+    </div>
+  </body>
+</html>
