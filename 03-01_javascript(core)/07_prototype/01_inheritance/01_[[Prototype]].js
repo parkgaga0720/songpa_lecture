@@ -22,4 +22,8 @@ const ohgirafferStudent = {
   __proto__: student,
 };
 
-console.log(ohgirafferStudent.activate);
+console.log(ohgirafferStudent.activate); //user 상속
+console.log(ohgirafferStudent.passion); //student 상속
+
+//프로토타입 체이님은 순환참조가 허용되지 않는다.
+//__proto__ 값은 객체 또는 null만 가능하며 다른 자료형은 무시된다.
