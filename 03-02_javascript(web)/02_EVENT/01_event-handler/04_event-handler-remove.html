@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>04. 이벤트 핸들러 제거</h1>
+    <pre>
+            removeEventListener 메소드에 전달한 인수는 addEventListener 메소드와 동일하며, 
+            전달한 인수가 일치하지 않을 경우 이벤트 핸들러는 제거되지 않는다.
+    </pre>
+
+    <button id="btn">클릭해보세요</button>
+
+    <script>
+      const $button = document.getElementById("btn");
+
+      const handleClick = () => alert("클릭했대!");
+
+      $button.addEventListener("click", handleClick);
+
+      $button.removeEventListener("click", handleClick);
+    </script>
+
+    <pre>
+        이벤트 핸들러 프로퍼티 방식으로 등록한 이벤트 핸들러는 removeEventListener 메소드로 제거할 수 없고
+        이벤트 핸들러 프로퍼티에 null을 할당해서 이벤트를 제거한다.
+    </pre>
+
+    <button id="btn2">더블클릭해보세요</button>
+
+    <script>
+      const $button2 = document.getElementById("btn2");
+
+      const handleDblClick = () => {
+        alert("더블클릭했다!");
+      };
+
+      // 이벤트 핸들러 프로퍼티 방식으로 이벤트 핸들러 등록
+      $button2.ondblclick = handleDblClick;
+
+      $button2.removeEventListener("dblclick", handleDblClick); // 제거 X
+
+      $button2.ondblclick = null;
+    </script>
+  </body>
+</html>
