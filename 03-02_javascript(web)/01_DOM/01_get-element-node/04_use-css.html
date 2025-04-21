@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>04. CSS 선택자를 이용한 요소 노드 취득</h1>
+    <div class="area">
+      <p>first</p>
+    </div>
+    <div class="area">
+      <p>second</p>
+    </div>
+
+    <script>
+      // Document.prototype.querySelector
+      // DOM 전체에서 class 어트리뷰트 값이 area인 첫 번째 요소 노드를 탐색하여 반환
+      const $area = document.querySelector(".area");
+      console.log($area);
+
+      $area.style.backgroundColor = "gray";
+
+      // $area의 자식 노드 중 p 태그인 첫 번째 요소 노드 탐색하여 반환
+      const $first = $area.querySelector("p");
+      console.log($first);
+
+      $first.style.color = "white";
+
+      const $noElement = document.querySelector(".noElement");
+      console.log($noElement);
+    </script>
+
+    <ul id="list">
+      <li class="drink">커피</li>
+      <li class="drink">콜라</li>
+      <li class="food">김치찌개</li>
+      <li class="food">된장찌개</li>
+    </ul>
+
+    <script>
+      // Document.prototype.querySelectorAll
+      // DOM 전체에서 ul 태그의 자손 li 태그들을 모두 NodeList로 반환
+      const $lists = document.querySelectorAll("ul > li");
+      console.log($lists);
+
+      [...$lists].forEach((list) => (list.style.backgroundColor = "gray"));
+
+      const $foodList = document
+        .getElementById("list")
+        .querySelectorAll(".food");
+      console.log($foodList);
+
+      [...$foodList].forEach((food) => (food.style.color = "white"));
+
+      const $noElement2 = document.querySelectorAll(".noElementList");
+      console.log($noElement2);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>01. 노드 생성과 추가</h1>
+    <pre>
+        Document.prototype.createElement(tagName) : 인수로 전달받은 태그 이름에 해당하는 요소 노드를 생성하여 반환
+        Document.prototype.createTextNode(text) : 인수로 전달받은 텍스트 값으로 텍스트 노드를 생성하여 반환
+        Node.prototype.appendChild(childNode) : 인수로 전달받은 노드를 appendChild 메소드를 호출한 노드의 마지막 자식 노드로 추가
+    </pre>
+
+    <ul id="drink">
+      <li>커피</li>
+    </ul>
+
+    <script>
+      const $drink = document.getElementById("drink");
+
+      const $li = document.createElement("li");
+
+      const textNode = document.createTextNode("콜라");
+
+      $li.appendChild(textNode);
+
+      console.log($li);
+
+      $drink.appendChild($li);
+    </script>
+
+    <h3>복수의 노드 생성과 추가</h3>
+    <ul id="food">
+      <li>김치찌개</li>
+    </ul>
+
+    <script>
+      const $food = document.getElementById("food");
+
+      const container = document.createElement("div");
+
+      ["된장찌개", "고등어구이", "순대국"].forEach((text) => {
+        const $li = document.createElement("li");
+        $li.textContent = text;
+
+        // DOM이 3번 변경 되면서 리플로우, 리페인트가 3번 실행되어 비효율적이다.
+        // $food.appendChild($li);
+
+        // div에 li를 추가
+        container.append($li);
+      });
+      // 컨테이너 요소 div를 사용하면 DOM은 1번만 변경된다.
+      $food.appendChild(container);
+    </script>
+  </body>
+</html>
