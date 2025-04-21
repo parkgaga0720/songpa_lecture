@@ -6,6 +6,45 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>노트 교체, 삭제</h1>
+    <h1>03. 노드 교체, 삭제</h1>
+
+    <h3>노드 교체</h3>
+    <pre>
+        Node.prototype.replaceChild(newChild, oldChild) 메소드는 자신을 호출한 노드의 자식 노드인 oldChild 노드를
+        newChild 노드로 교체한다. 
+        이 때 oldChild는 replaceChild 메소드를 호출한 노드의 자식 노드여야하고 oldChild 노드는 DOM에서 제거된다. 
+    </pre>
+
+    <ul id="drink">
+      <li>커피</li>
+      <li>사이다</li>
+    </ul>
+
+    <script>
+      const $drink = document.getElementById("drink");
+      const $coffee = $drink.firstElementChild;
+
+      const $newChild = document.createElement("li");
+      $newChild.textContent = "콜라";
+
+      $drink.replaceChild($newChild, $coffee);
+    </script>
+
+    <h3>노드 삭제</h3>
+    <pre>
+        Node.prototype.removeChild(child) 메소드는 child 매개변수에 인수로 전달한 노드를 DOM에서 삭제한다.
+        인수로 전달한 노드는 removeChild 메소드를 호출한 노드의 자식이어야한다.
+    </pre>
+
+    <ul id="food">
+      <li>파스타</li>
+      <li>피자</li>
+    </ul>
+
+    <script>
+      const $food = document.getElementById("food");
+
+      $food.removeChild($food.lastElementChild);
+    </script>
   </body>
 </html>
