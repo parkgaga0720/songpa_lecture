@@ -120,5 +120,29 @@
         e.target.classList.remove("focused")
       );
     </script>
+
+    <h3>change 이벤트</h3>
+    <pre>
+        change 이벤트는 요소 변경이 끝나면 발생하는 이벤트이다.
+        select/checkbox/radio 의 경우 선택값이 변경된 직후 이벤트가 발생하지만
+        텍스으 입력 요소인 경우 변경 후 포커스를 잃었을 때 이벤트가 발생하게 된다.
+    </pre>
+
+    <script>
+      $age.addEventListener("change", () => alert("age change"));
+      $introduce.addEventListener("change", () => alert("introduce change"));
+    </script>
+
+    <h3>input 이벤트</h3>
+    <pre>
+        input 이벤트는 키보드 이벤트와 달리 어떤 방법으로든 값을 변경할때 발생한다
+        예를들어 마우스를 사용하여 글자를 붙여넣거나 음성인식 기능을 사용해서 글자를 입력할 때도 반응한다.
+    </pre>
+    <script>
+      $introduce.addEventListener("input", (e) => {
+        let len = e.target.value.trim().length;
+        $form.querySelector("span").textContent = len;
+      });
+    </script>
   </body>
 </html>
