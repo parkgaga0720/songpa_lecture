@@ -1,0 +1,24 @@
+<!-- 1. 사과와 바나나 사이에 오렌지 넣기 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul id="fruits">
+      <li>사과</li>
+      <li>바나나</li>
+    </ul>
+    <script>
+      const fruits = document.getElementById("fruits");
+
+      const orange = document.createElement("li");
+      orange.textContent = "오렌지";
+
+      fruits.insertBefore(orange, fruits.children[1]);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<!-- 2. 버튼을 클릭하면 p태그의 텍스트가 "진행중"으로 바뀌게 코드를 작성하기 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="status">대기중</p>
+    <button id="btn">시작</button>
+    <script>
+      const btn = document.getElementById("btn");
+      const statusTxt = document.getElementById("status");
+
+      btn.addEventListener("click", () => {
+        statusTxt.textContent = "진행중";
+      });
+    </script>
+  </body>
+</html>
