@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .lightgray {
+        background: lightblue;
+      }
+      .focused {
+        outline: 1px dashed green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>사용자 입력 양식 이벤트 연습하기</h1>
+    <form name="memberjoin">
+      <label>이름</label><br />
+      <input type="text" name="username" id="username" />
+      <br />
+      <br />
+      <label>이메일</label><br />
+      <input type="email" name="useremail" id="useremail" />
+      <br />
+      <br />
+      <label>성별</label><br />
+      <input type="radio" name="gender" id="male" value="m" /><label for="male"
+        >남자</label
+      >
+      <input type="radio" name="gender" id="female" value="f" /><label
+        for="female"
+        >여자</label
+      >
+      <br />
+      <br />
+      <label>참여 일자 선택</label><br />
+      <select name="date" id="date">
+        <option value="0">-- 날짜 선택 --</option>
+        <option value="1">2025.01.01</option>
+        <option value="2">2025.02.01</option>
+        <option value="3">2025.03.01</option>
+        <option value="4">2025.04.01</option>
+        <option value="5">2025.05.01</option>
+      </select>
+      <br />
+      <br />
+      <label>요청사항</label><br />
+      <textarea name="request" id="request" style="resize: none"></textarea
+      ><br />
+      <span>0</span>/500자
+      <br />
+      <br />
+      <div class="cb">
+        <input type="checkbox" name="checkbox" />개인정보 수집에 동의합니다.<br />
+      </div>
+      <br />
+      <input type="submit" value="신청하기" name="btnSubmit" />
+    </form>
+
+    <script>
+      //폼 취득
+      const $form = document.forms.memberjoin;
+
+      //요소 취득
+      const $username = $form.username;
+      const $useremail = $form.useremail;
+      const $gender = $form.gender;
+      const $date = $form.date;
+      const $request = $form.request;
+      const $cb = document.querySelector(".cb");
+      const $checkbox = $form.checkbox;
+      const $btnSubmit = $form.btnSubmit;
+
+      //요소마다 focus 됐을때 적용(버블링 필요)
+      $form.addEventListener("focusin", (e) => {
+        e.target.classList.add("focused"),
+          e.target.classList.toggle("lightgray");
+      });
+      //해제
+      $form.addEventListener("focusout", (e) => {
+        e.target.classList.remove("focused"),
+          e.target.classList.remove("lightgray");
+      });
+
+      // 체크박스와 버튼은 버블링 제외
+      $checkbox.addEventListener("focusin", (e) => {
+        e.stopPropagation();
+      });
+      $btnSubmit.addEventListener("focusin", (e) => {
+        e.stopPropagation();
+      });
+
+      //이메일 유효성 체크
+      $useremail.addEventListener("blur", (e) => {
+        const email = e.target.value.trim();
+        if (!email.includes("@")) {
+          alert("이메일에 @ 기호가 포함되어야 합니다.");
+        }
+      });
+
+      //글자 수 체크
+      $request.addEventListener("input", (e) => {
+        let len = e.target.value.trim().length;
+        $form.querySelector("span").textContent = len;
+
+        //500자 제한
+        if (len > 500) {
+          e.target.value = e.target.value.trim().substring(0, 500);
+          $form.querySelector("span").textContent = 500;
+        }
+      });
+
+      //체크박스 선택 막기
+      $checkbox.addEventListener("click", (e) => {
+        if ($username.value.trim() === "" || $useremail.value.trim() === "") {
+          e.preventDefault();
+          //빈칸 alert 띄우기
+          if ($username.value.trim() === "") {
+            alert("이름을 입력하세요.");
+            return;
+          } else if ($useremail.value.trim() === "") {
+            alert("이메일을 입력하세요.");
+            return;
+          }
+        } else if ($checkbox.checked) {
+          // div cb 배경색 바꾸기
+          $cb.style.background = "lightgreen";
+          $cb.style.color = "white";
+        } else {
+          $cb.style.background = "";
+          $cb.style.color = "";
+        }
+      });
+    </script>
+  </body>
+</html>
