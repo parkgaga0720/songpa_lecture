@@ -22,3 +22,8 @@ let [sign1, sign2, ...rest] = [
 console.log(sign1);
 console.log(sign2);
 console.log(rest);
+
+//기본값을 설정하고 사용할 수도 있다.
+let [firstNmae4 = "아무개", lastName4="김"] = ["길동"];
+console.log(firstNmae4);
+console.log(lastName4);

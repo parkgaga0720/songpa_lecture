@@ -28,3 +28,6 @@ function makeTutee(message) {
     }
   };
 }
+
+let SecondTutee = makeTutee('메시지');
+new SecondTutee().feedback();
