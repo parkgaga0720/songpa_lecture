@@ -4,7 +4,7 @@ public class Application1 {
 
     public static void main(String[] args) {
 
-        /* comment. 비교연산자에 대해 이해하고 활용할 수 있다. */
+        /* 비교연산자에 대해 이해하고 활용할 수 있다. */
         /* 비교연산자는 피연산자 사이에서 상대적인 크기를 판단해서 참 혹은 거짓을 반환하는 연산자이다.
          * 연산자 중 참 혹은 거짓을 반환하는 연산자는 삼항연산자의 조건식이나 조건문의 조건절에 많이 사용된다. */
 
@@ -64,7 +64,7 @@ public class Application1 {
 
         System.out.println(str1 == str2);
         System.out.println(str1 != str2);
-//        System.out.println(str1 > str2);      // 대소 비교 불가능
+    //        System.out.println(str1 > str2);      // 대소 비교 불가능
 
         int x = 10;
         int y = 11;

@@ -4,7 +4,7 @@ public class Application2 {
 
     public static void main(String[] args) {
 
-        /* comment. 논리연산자의 우선순위에 대해 이해하고 활용할 수 있다. */
+        /* 논리연산자의 우선순위에 대해 이해하고 활용할 수 있다. */
         /* 논리 연산자의 우선순위와 활용
          *  && : 11순위
          *  || : 12순위

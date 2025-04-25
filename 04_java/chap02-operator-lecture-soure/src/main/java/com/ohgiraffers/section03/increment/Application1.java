@@ -4,7 +4,7 @@ public class Application1 {
 
     public static void main(String[] args) {
 
-        /* comment. 증감연산자에 대해 이해하고 활용할 수 있다. */
+        /* 증감연산자에 대해 이해하고 활용할 수 있다. */
         /* 증감연산자
          *  피연산자의 앞 or 뒤에 사용이 가능하다.
          *  '++' : 1 증가의 의미
