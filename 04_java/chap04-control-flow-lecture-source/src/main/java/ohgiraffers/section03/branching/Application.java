@@ -5,7 +5,7 @@ public class Application {
         A_break a = new A_break();
         a.testSimpleBreakStatement();
         a.testSimpleBreakStatement2();
-        
+
         B_continue b = new B_continue();
         b.testSimpleContinueStatement();
     }
