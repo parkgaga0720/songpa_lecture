@@ -17,5 +17,13 @@ public class Application {
         c.testSimpleWhileStatement();
         c.testWhileExample1();
         c.testWhileExample2();
+
+        B_nestedWhile d = new B_nestedWhile();
+        d.testWhileExample3();
+
+        C_doWhile doWhile = new C_doWhile();
+        doWhile.testSimpleDoWhileStatement();
+        doWhile.testDoWhileExample();
+
     }
 }
