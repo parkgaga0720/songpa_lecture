@@ -8,7 +8,7 @@ public class practice17 {
 abcdefghijklmnopqrstuvwxyz*/
 
         for (char ch = 'a'; ch <= 'z'; ch++) {
-            System.out.print(ch);  // println(X), print(O)
+            System.out.print(ch);
         }
 
     }
