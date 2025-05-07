@@ -13,16 +13,6 @@ public class MemberDTO {
 
     public MemberDTO() {}
 
-    public MemberDTO(String id, String pwd, String name,int age, char gender, String phone, String email) {
-        this.id = id;
-        this.pwd = pwd;
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
-        this.phone = phone;
-        this.email = email;
-    }
-
     public void setId(String id) {
         this.id = id;
     }
@@ -36,8 +26,6 @@ public class MemberDTO {
     public void setGender(char gender) {this.gender = gender;}
     public void setPhone(String phone) {this.phone = phone;}
     public void setEmail(String email) {this.email = email;}
-
-
 
     public String getId() {
         return id;
