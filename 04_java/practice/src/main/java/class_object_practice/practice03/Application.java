@@ -60,6 +60,7 @@ public class Application {
         System.out.println(emp.getName());
         System.out.println(emp.getDept());
         System.out.println(emp.getJob());
+        System.out.println(emp.getAge());
         System.out.println(emp.getGender());
         System.out.println(emp.getSalary());
         System.out.println(emp.getBonusPoint());
