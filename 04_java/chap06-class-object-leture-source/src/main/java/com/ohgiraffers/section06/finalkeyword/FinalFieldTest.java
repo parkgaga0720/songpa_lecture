@@ -37,10 +37,14 @@ public class FinalFieldTest {
     //생성자는 인스턴스가 생성되는 시점에 호출이 되기 때문에 그전에는 초기화가 일어나지 못한다.
     //하지만 static은 프로그램이 start될때 할당되기 때문에 초기화가 되지 않은 상태로 선언된 것과
     //동일하여 기본값으로 초기화 된 후 갑슬 변경하지 못하기 때문에 에러가 발생한다.
-
-    //private static final double STATIC_DOUBLE;
+    private static final double STATIC_DOUBLE;
     //public FinalFieldTest(double staticDouble){
     //  FinalFieldTest.STATIC_DOUBLE = staticDouble;
     //}
+
+    //초기화 블럭
+    static{
+        STATIC_DOUBLE = 0.5;
+    }
 
 }
