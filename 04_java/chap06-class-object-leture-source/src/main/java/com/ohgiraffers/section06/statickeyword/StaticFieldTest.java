@@ -4,6 +4,7 @@ public class StaticFieldTest {
     private int nonStaticCount;
     private static int staticCount;
     public StaticFieldTest() {}
+
     public int getNonStaticCount() {
         return nonStaticCount;
     }
