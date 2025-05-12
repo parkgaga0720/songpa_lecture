@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a8acb16-09d3-413a-a330-a5820adc757c" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/../chap10-api-lecture-source/src/main/java/com/ohgiraffers/section01/string/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section01/generic/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section01/generic/GenericTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/Bunny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/DrunkenBunny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/Rabbit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/RabbitFarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/Reptile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/WildCardFarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/run/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/run/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap12-collection-leture-source/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap12-collection-leture-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap12-collection-leture-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap12-collection-leture-source/src/main/java/com/ohgiraffers/section01/list/Application1.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;parkgaga0720&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/parkgaga0720/songpa_lecture.git&quot;,
+    &quot;accountId&quot;: &quot;4c43e218-fbf5-42a5-8652-f5a7217895ca&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2wqY1Dzen62zVGMuMsYqTmwdgr5" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.gaga-and-gogo [:gaga_gogo.Application.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gaga/lecture/04_java/gaga-and-gogo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="3a8acb16-09d3-413a-a330-a5820adc757c" name="변경" comment="" />
+      <created>1746770357297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746770357297</updated>
+      <workItem from="1746770358493" duration="1697000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
