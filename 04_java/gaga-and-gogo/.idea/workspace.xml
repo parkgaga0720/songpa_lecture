@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a8acb16-09d3-413a-a330-a5820adc757c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/../chap10-api-lecture-source/src/main/java/com/ohgiraffers/section01/string/Application2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section01/generic/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section01/generic/GenericTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/Bunny.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/DrunkenBunny.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/Mammal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/Rabbit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/RabbitFarm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/Reptile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/Snake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/WildCardFarm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/run/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap11-generics-leccture-source/src/main/java/com/ohgiraffers/section02/extend/run/Application2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap12-collection-leture-source/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap12-collection-leture-source/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap12-collection-leture-source/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap12-collection-leture-source/src/main/java/com/ohgiraffers/section01/list/Application1.java" afterDir="false" />
-    </list>
+    <list default="true" id="3a8acb16-09d3-413a-a330-a5820adc757c" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
