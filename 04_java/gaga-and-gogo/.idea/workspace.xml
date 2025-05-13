@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a8acb16-09d3-413a-a330-a5820adc757c" name="변경" comment="" />
+    <list default="true" id="3a8acb16-09d3-413a-a330-a5820adc757c" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/../chap12-collection-leture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap12-collection-leture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1746770357297</updated>
-      <workItem from="1746770358493" duration="1697000" />
+      <workItem from="1746770358493" duration="2297000" />
     </task>
     <servers />
   </component>
