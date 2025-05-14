@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a8acb16-09d3-413a-a330-a5820adc757c" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../chap12-collection-leture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap12-collection-leture-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section01/file/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/Application1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap12-collection-leture-source/src/main/java/com/ohgiraffers/section01/list/comparator/AscendingPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap12-collection-leture-source/src/main/java/com/ohgiraffers/section01/list/comparator/AscendingPrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
