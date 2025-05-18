@@ -5,9 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a8acb16-09d3-413a-a330-a5820adc757c" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section01/file/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/Application1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap12-collection-leture-source/src/main/java/com/ohgiraffers/section01/list/comparator/AscendingPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap12-collection-leture-source/src/main/java/com/ohgiraffers/section01/list/comparator/AscendingPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section01/intenum/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap15-enum-lecture-source/src/main/java/com/ohgiraffers/section01/intenum/Subjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section01/file/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/Application1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/Application2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/Application3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/Application4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/testInputStream.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/testOutputStream.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/testReder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section02/stream/testWriter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section03/filterstream/Application1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section03/filterstream/Application2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section03/filterstream/Application3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section03/filterstream/Application4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section03/filterstream/dto/MemberDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section03/filterstream/score.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section03/filterstream/testBuffered.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-io-lecture-source/src/main/java/com/ohgiraffers/section03/filterstream/testObjectStream.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
